@@ -189,7 +189,7 @@ service "datamigration" {
 }
 service "dataprotection" {
   name      = "DataProtection"
-  available = ["2024-04-01", "2025-07-01", "2025-09-01"]
+  available = ["2024-04-01", "2025-07-01", "2025-09-01", "2026-03-01"]
 }
 service "datashare" {
   name      = "DataShare"
@@ -563,7 +563,7 @@ service "securityinsights" {
 }
 service "servicebus" {
   name      = "ServiceBus"
-  available = ["2024-01-01"]
+  available = ["2024-01-01", "2026-01-01"]
 }
 service "servicefabric" {
   name      = "ServiceFabric"
@@ -656,7 +656,7 @@ service "vmware" {
 }
 service "web" {
   name      = "Web"
-  available = ["2016-06-01", "2023-01-01", "2023-12-01", "2024-11-01", "2025-05-01"]
+  available = ["2016-06-01", "2023-01-01", "2023-12-01", "2024-11-01", "2025-05-01", "2026-07-15"]
 }
 service "webpubsub" {
   name      = "WebPubSub"
